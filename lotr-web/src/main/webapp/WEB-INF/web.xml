@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <!-- Default page to serve -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <!--<security-constraint>-->
+        <!--<web-resource-collection>-->
+            <!--<web-resource-name>protected-resources</web-resource-name>-->
+            <!--<url-pattern>*.html</url-pattern>-->
+            <!--<http-method>HEAD</http-method>-->
+            <!--<http-method>GET</http-method>-->
+            <!--<http-method>POST</http-method>-->
+            <!--<http-method>PUT</http-method>-->
+            <!--<http-method>DELETE</http-method>-->
+        <!--</web-resource-collection>-->
+        <!--<auth-constraint>-->
+            <!--<role-name>ANY_ROLE</role-name>-->
+        <!--</auth-constraint>-->
+        <!--<user-data-constraint>-->
+            <!--<transport-guarantee>NONE</transport-guarantee>-->
+        <!--</user-data-constraint>-->
+    <!--</security-constraint>-->
+    <!--&lt;!&ndash; ANY_ROLE is used to avoid the need of listing all roles here, if user is found it is assigned anyway &ndash;&gt;-->
+    <!--<security-role>-->
+        <!--<role-name>ANY_ROLE</role-name>-->
+    <!--</security-role>-->
+
+</web-app>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lotr-pom</artifactId>
+        <groupId>com.lotr</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>L.O.T.R. EAR</name>
+
+    <artifactId>lotr-ear</artifactId>
+    <packaging>ear</packaging>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-ear-plugin</artifactId>
+                        <version>2.10</version>
+                        <configuration>
+                            <earSourceDirectory>src/main/resources</earSourceDirectory>
+                            <filtering>true</filtering>
+                            <generateApplicationXml>true</generateApplicationXml>
+                            <version>6</version>
+                            <applicationName>lotr</applicationName>
+                            <initializeInOrder>true</initializeInOrder>
+                            <finalName>lotr-ear-${project.version}</finalName>
+                            <defaultJavaBundleDir>lib</defaultJavaBundleDir>
+                            <modules>
+                                <webModule>
+                                    <groupId>com.lotr</groupId>
+                                    <artifactId>lotr-web</artifactId>
+                                    <contextRoot>/lotr</contextRoot>
+                                </webModule>
+                                <ejbModule>
+                                    <groupId>com.lotr</groupId>
+                                    <artifactId>lotr-services</artifactId>
+                                </ejbModule>
+                                <ejbModule>
+                                    <groupId>com.lotr</groupId>
+                                    <artifactId>lotr-server</artifactId>
+                                </ejbModule>
+                            </modules>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+            <dependencies>
+                <dependency>
+                    <groupId>com.lotr</groupId>
+                    <artifactId>lotr-web</artifactId>
+                    <version>${project.version}</version>
+                    <type>war</type>
+                </dependency>
+                <dependency>
+                    <groupId>com.lotr</groupId>
+                    <artifactId>lotr-services</artifactId>
+                    <version>${project.version}</version>
+                    <type>ejb</type>
+                </dependency>
+                <dependency>
+                    <groupId>com.lotr</groupId>
+                    <artifactId>lotr-server</artifactId>
+                    <version>${project.version}</version>
+                    <type>ejb</type>
+                </dependency>
+            </dependencies>
+        </profile>
+    </profiles>
+
+</project>
