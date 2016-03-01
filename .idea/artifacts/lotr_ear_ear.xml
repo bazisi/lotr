@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="lotr-ear:ear">
+    <output-path>$PROJECT_DIR$/lotr-ear/target</output-path>
+    <root id="archive" name="lotr-ear-1.0-SNAPSHOT.ear">
+      <element id="artifact" artifact-name="lotr-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>
