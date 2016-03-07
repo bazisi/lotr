@@ -11,7 +11,7 @@
     <modules>
         <module>lotr-server</module>
         <module>lotr-services</module>
-        <module>lotr-web</module>
+        <module>lotr-console</module>
         <module>lotr-ear</module>
     </modules>
 

@@ -7,8 +7,8 @@
         <element id="file-copy" path="$PROJECT_DIR$/lotr-ear/target/lotr-ear-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="dir-copy" path="src/main/resources" />
-      <element id="archive" name="lotr-web-1.0-SNAPSHOT.war">
-        <element id="artifact" artifact-name="lotr-web:war exploded" />
+      <element id="archive" name="lotr-console-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="lotr-console:war exploded" />
       </element>
       <element id="archive" name="lotr-services-1.0-SNAPSHOT.jar">
         <element id="module-output" name="lotr-services" />

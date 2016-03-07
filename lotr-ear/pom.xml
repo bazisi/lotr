@@ -38,8 +38,8 @@
                             <modules>
                                 <webModule>
                                     <groupId>com.lotr</groupId>
-                                    <artifactId>lotr-web</artifactId>
-                                    <contextRoot>/lotr</contextRoot>
+                                    <artifactId>lotr-console</artifactId>
+                                    <contextRoot>/admin</contextRoot>
                                 </webModule>
                                 <ejbModule>
                                     <groupId>com.lotr</groupId>
@@ -57,7 +57,7 @@
             <dependencies>
                 <dependency>
                     <groupId>com.lotr</groupId>
-                    <artifactId>lotr-web</artifactId>
+                    <artifactId>lotr-console</artifactId>
                     <version>${project.version}</version>
                     <type>war</type>
                 </dependency>

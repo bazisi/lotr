@@ -4,9 +4,9 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="gwt" url="file://$PROJECT_DIR$/lotr-web" />
+    <file type="gwt" url="file://$PROJECT_DIR$/lotr-console" />
     <file type="javaeeApplication" url="file://$PROJECT_DIR$/lotr-ear" />
-    <file type="web" url="file://$PROJECT_DIR$/lotr-web" />
+    <file type="web" url="file://$PROJECT_DIR$/lotr-console" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
