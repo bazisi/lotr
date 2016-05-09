@@ -4,9 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/lotr-console/lotr-console.iml" filepath="$PROJECT_DIR$/lotr-console/lotr-console.iml" />
       <module fileurl="file://$PROJECT_DIR$/lotr-ear/lotr-ear.iml" filepath="$PROJECT_DIR$/lotr-ear/lotr-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lotr-model/lotr-services.iml" filepath="$PROJECT_DIR$/lotr-model/lotr-services.iml" />
       <module fileurl="file://$PROJECT_DIR$/lotr-pom.iml" filepath="$PROJECT_DIR$/lotr-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/lotr-server/lotr-server.iml" filepath="$PROJECT_DIR$/lotr-server/lotr-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lotr-services/lotr-services.iml" filepath="$PROJECT_DIR$/lotr-services/lotr-services.iml" />
     </modules>
   </component>
 </project>

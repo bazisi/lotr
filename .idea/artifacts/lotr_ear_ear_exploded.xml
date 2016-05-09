@@ -11,10 +11,15 @@
         <element id="artifact" artifact-name="lotr-console:war exploded" />
       </element>
       <element id="archive" name="lotr-services-1.0-SNAPSHOT.jar">
-        <element id="module-output" name="lotr-services" />
+        <element id="module-output" name="lotr-model" />
       </element>
       <element id="archive" name="lotr-server-1.0-SNAPSHOT.jar">
         <element id="module-output" name="lotr-server" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Maven: javax:javaee-api:7.0" />
+        <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.0" />
+        <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
       </element>
     </root>
   </artifact>

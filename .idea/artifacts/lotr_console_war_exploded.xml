@@ -7,32 +7,18 @@
           <element id="module-output" name="lotr-console" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.sencha.gxt:gxt:3.1.1" />
-          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
-          <element id="library" level="project" name="Maven: javax.validation:validation-api:sources:1.0.0.GA" />
-          <element id="library" level="project" name="Maven: org.json:json:20090211" />
-          <element id="library" level="project" name="Maven: com.sencha.gxt:gxt-chart:3.1.1" />
-          <element id="library" level="project" name="Maven: com.sencha.gxt:gxt-theme-neptune:3.1.1" />
-          <element id="library" level="project" name="Maven: com.google.gwt:gwt-user:2.7.0" />
-          <element id="library" level="project" name="Maven: com.google.gwt:gwt-dev:2.7.0" />
-          <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.3" />
-          <element id="library" level="project" name="Maven: org.ow2.asm:asm-util:5.0.3" />
-          <element id="library" level="project" name="Maven: org.ow2.asm:asm-tree:5.0.3" />
-          <element id="library" level="project" name="Maven: org.ow2.asm:asm-commons:5.0.3" />
-          <element id="library" level="project" name="Maven: com.google.gwt:gwt-codeserver:2.7.0" />
-          <element id="library" level="project" name="Maven: com.google.gwt:gwt-servlet:2.7.0" />
-          <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
-          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.1" />
+          <element id="archive" name="lotr-server-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="lotr-server" />
+          </element>
+          <element id="library" level="project" name="Maven: javax:javaee-api:7.0" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.0" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/lotr-console/target/lotr-console-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="lotr-console/web/Web" />
-      <element id="gwt-compiler-output" facet="lotr-console/gwt/GWT" />
     </root>
   </artifact>
 </component>

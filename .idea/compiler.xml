@@ -22,7 +22,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="lotr-console" />
         <module name="lotr-ear" />
+        <module name="lotr-model" />
         <module name="lotr-server" />
         <module name="lotr-services" />
       </profile>
@@ -33,17 +35,11 @@
         <processorPath useClasspath="true" />
         <module name="lotr-web" />
       </profile>
-      <profile default="false" name="Annotation profile for lotr-console" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="lotr-console" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lotr-console" target="1.8" />
       <module name="lotr-ear" target="1.5" />
+      <module name="lotr-model" target="1.5" />
       <module name="lotr-pom" target="1.5" />
       <module name="lotr-server" target="1.5" />
       <module name="lotr-services" target="1.5" />
